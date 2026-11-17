@@ -9,7 +9,7 @@ cp .env.example .env   # then set VITE_SPREADSHEET_CSV_URL
 npm run dev            # http://localhost:5173
 npm run build          # type-check + production build
 ```
-With no URL set, built-in sample data (PLN → Jawa/Sumatera → cities) is used.
+With no URL set, built-in sample data 
 
 ## Google Sheet
 1. Create a sheet with the header row: `No, Parent, Redefining Initiative (L0), Strategy Program (L1), InitiativeCharter (L2), SubCharter (L3), SubInitiative (L4), Fase, Keterangan, KPI`. A banner row above the header is allowed.
