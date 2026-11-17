@@ -1,0 +1,21 @@
+@import "tailwindcss";
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+.tree-svg text {
+  font-size: 12px;
+  fill: #334155;
+  paint-order: stroke;
+  stroke: #f8fafc;
+  stroke-width: 3px;
+  pointer-events: none;
+}
